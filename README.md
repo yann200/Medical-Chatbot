@@ -16,9 +16,3 @@ This project consist on building an end-to-end Medical Chatbot using Generative 
 
 ![deploiement architecture](img/deploy_diagram_screemshot.png)
 
-- Local : .env → dans .gitignore
-- GitHub : secrets → GitHub Actions Secrets
-- GitHub Actions : lit les secrets → les envoie à EC2
-- EC2 : stocke la clé dans .env ou dans l’environnement système
-- Ton code : lit la clé via os.getenv
-
