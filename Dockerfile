@@ -6,4 +6,6 @@ COPY . /app
 
 RUN pip install -r requirements.txt
 
+RUN pip install -U sentence-transformers
+
 CMD ["python3", "app.py"]
