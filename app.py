@@ -15,7 +15,7 @@ app = Flask(__name__)
 load_dotenv()
 
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-OPEN_AI_API_KEY = os.getenv("OPEN_AI_API_KEY")
+OPEN_AI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 os.environ["OPENAI_API_KEY"] = OPEN_AI_API_KEY
